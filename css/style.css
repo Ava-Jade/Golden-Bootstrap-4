@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #000;
+}
+
+header .bg{
+    height: 100%;
+    background-image: url(../img/img/header-golden.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.navbar {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.navbar-brand h4{
+    color: #fed116;
+}
+
+.navbar-nav a.nav-link {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card {
+    box-shadow: none;
+}
+.social i.fab {
+    margin: 5px;
+    font-size: 28px;
+    color: #000;
+}
+.contact-us {
+    color:#fff;
+    height: 100%;
+    background-image: url(../img/img/Background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+input[type=text]{
+   width: 100%;
+   height: 48px;
+   padding-left: 15px;
+   font-size: 14px;
+   color: #bbbbbb;
+   font-weight: bold;
+   text-align: left;
+   text-transform: uppercase;
+   font-weight: bold;
+   letter-spacing: -0.35px;
+   border: none;
+   border-radius: 2px;
+   background-color: #ffffff;
+   box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 14px;
+    color: #bbbbbb;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: -0.35px;
+    border: none;
+    border-radius: 2px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.footer-social i.fab {
+    margin: 5px;
+    font-size: 30px;
+    color: #000;
+}
